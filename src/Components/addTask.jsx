@@ -109,7 +109,7 @@ const AddTask = () => {
                         </Form.Select>
 
                         <div style={{direction: "flex"}}>
-                        <Button style= {{marginRight:20}}variant="primary"  type="submit">
+                        <Button variant="primary"  type="submit">
                             Submit
                         </Button>
                         <Button variant="secondary" onClick={() => setPopupOpen(false)}>
