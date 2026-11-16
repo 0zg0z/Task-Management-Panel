@@ -8,7 +8,7 @@ import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import AddTask from '../Components/addTask';
 import { DragDropContext } from "@hello-pangea/dnd";
-import EditTask from '../Components/editTask';
+import EditTask from '../Components/EditTask';
 
 function TaskManager() {
   
