@@ -1,0 +1,53 @@
+.dashboard-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+}
+
+.dashboard-main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.dashboard-sidebar {
+    position: sticky;
+    top: 20px;
+}
+
+.project-progress-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.daily-tasks {
+    background: white;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
+
+.daily-tasks h3 {
+    font-size: 17px;
+    margin-bottom: 16px;
+}
+
+.daily-task-item {
+    padding: 12px;
+    margin-bottom: 8px;
+    background: #f9fafb;
+    border-radius: 8px;
+    border-left: 3px solid #6366f1;
+}
+
+@media (max-width: 900px) {
+    .dashboard-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-sidebar {
+        position: static;
+    }
+}
